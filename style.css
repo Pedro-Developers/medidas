@@ -1,0 +1,56 @@
+* {
+ margin: 0px;
+ padding: 0px; 
+ box-sizing: border-box;
+}
+
+body{
+  display: flex;
+    font-size: 20px;
+}
+
+h1 {
+ font-size: 22px;
+}
+
+h2 {
+font-size: 3em;
+}
+
+p {
+     font-size: 2rem;
+}
+
+#layout {
+
+display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;           
+
+
+
+}
+        
+        
+
+.caixa {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc;
+}
+#layout2 {
+display: flex;
+  justify-content: center;  
+  align-items: center;      
+  height: 100vh;           
+        
+
+
+
+}
+.caixa2{
+      width: 200px;
+  height: 200px;
+  background-color: #e48686;
+}
