@@ -1,53 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Medidas</title>
-  <link rel="stylesheet" href="style.css">
+    <title>Unidades de Medida no CSS</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-   <div id="tipografia"> <h1>Texto1</h1>
-        <h2>Texto2</h2>
-              <p>Texto3</p>
-    </div>
+    
+    <section class="secao-tipografia">
+        <h1>Título em PX (absoluto)</h1>
+        
+        <h2>Subtítulo em EM (relativo ao pai)</h2>
+        
+        <p>Parágrafo em REM (relativo à raiz).</p>
+        
+        <div class="bloco-leitura">
+            <p class="texto-legivel">
+                Este é um parágrafo otimizado com largura máxima de 60ch para melhorar a legibilidade. 
+                O espaçamento entre linhas está definido em lh (line-height relativo).
+            </p>
+        </div>
+    </section>
 
-   <div id="layout">
-    <div class="caixa">
-    Caixa
-  </div>
+    <section class="container-principal">
+        <h2>Seção com Unidades de Viewport</h2>
+        
+        <div class="caixa-responsiva">
+            <p>Largura em VW + Padding em EM</p>
+        </div>
 
-<div id="layout2">   
-  <div class="caixa2">
-    Caixa2
-  </div>
-</div>
+        <div class="caixa-fisica">
+            <p>Largura em CM, Borda em MM</p>
+        </div>
 
-
-   </div>
-
-
-
-
- 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        <div class="elemento-adaptavel">
+            <p>Font-Size em VMIN</p>
+        </div>
+    </section>
 
 </body>
 </html>
